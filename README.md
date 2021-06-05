@@ -51,7 +51,7 @@ If you find this repo useful for your research, please consider citing the paper
 ```
 @article{chuang2021measuring,
   title={Measuring Generalization with Optimal Transport},
-  author={Chuang, Ching-Yao and Robinson, Joshua and Lin, Yen-Chen and Torralba, Antonio and Jegelka, Stefanie},
+  author={Chuang, Ching-Yao and Mroueh, Youssef and Greenewald, Kristjan and Torralba, Antonio and Jegelka, Stefanie},
   journal={arXiv},
   year={2021}
 }
