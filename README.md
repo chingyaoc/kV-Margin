@@ -24,7 +24,7 @@ Understanding the generalization of deep neural networks is one of the most impo
 - [POT](https://pythonot.github.io/)
 
 ## PGDL Dataset
-Download the dataset from the official Predicting Generalization in Deep Learning (PGDL) [repo](https://github.com/google-research/google-research/tree/master/pgdl). The evaluation tool and instructions can be found [here](https://competitions.codalab.org/competitions/25301#learn_the_details-get_starting_kit).
+Download the dataset from the official Predicting Generalization in Deep Learning (PGDL) [repo](https://github.com/google-research/google-research/tree/master/pgdl). The evaluation tool and instructions can be found [here](https://competitions.codalab.org/competitions/25301#learn_the_details-get_starting_kit). The folders, ```kV-Margin``` and ```kV-GN-Margin```, contain the implementation of our k-variance normalized margins (see ```complexity.py```).
 
 To evaluate our ```kV-Margin``` or ```kv-GN-Margin```,  download data and run
 ``` 
@@ -36,7 +36,9 @@ To compute the score of your submission locally, you can run the scoring program
 python scoring_program/score.py **path/to/reference_data** **path/to/prediction** **path/to/output**
 ```
 
-### Results 
+One can modify the ```shallow``` argument in ```complexity.py``` to choose shallow (1st) or deep layer (8th) feature to compute the margins.
+
+## Results 
 | random seed = 0 | task1 | task2 | task4 | task5 | task6 | task7 | task8 |
 |----------|:---:|:----:|:---:|:---:|:---:|:---:|:---:|
 |  kv-Margin 1st | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 |
