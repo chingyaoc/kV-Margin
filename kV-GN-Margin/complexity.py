@@ -52,7 +52,7 @@ def get_features(model, img, layer_idx):
     feat = feat.numpy()
     return feat.reshape(feat.shape[0], -1)
 
-def complexity(model, dataset, shallow=):
+def complexity(model, dataset, shallow=False):
     np.random.seed(0)
 
     if shallow:
