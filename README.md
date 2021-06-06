@@ -39,12 +39,12 @@ python scoring_program/score.py **path/to/reference_data** **path/to/prediction*
 One can modify the ```shallow``` argument in ```complexity.py``` to choose shallow (1st) or deep layer (8th) feature to compute the margins.
 
 ## Results 
-| random seed = 0 | task1 | task2 | task4 | task5 | task6 | task7 | task8 |
-|----------|:---:|:----:|:---:|:---:|:---:|:---:|:---:|
-|  kv-Margin 1st | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 |
-|  kv-Margin 8th | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 |
-|  kv-GN-Margin 1st |0.00  | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 |
-|  kv-GN-Margin 8th |0.00  | 0.00 | 0.00 | 0.00 | 0.0 | 0.00 | 0.00 |
+| random seed = 0 | task1 | task2 | task4 | task5 | task6 | task7 | task8 | task9 |
+|----------|:---:|:----:|:---:|:---:|:---:|:---:|:---:|:---:|
+|  kv-Margin 1st | 5.83 | 29.11 | 36.45 | 17.51 | 6.27 | 2.11 | 1.89 | 13.89 |
+|  kv-Margin 8th | 29.72 | 27.19 | 6.01 | 15.10 | 0.81 | 1.71 | 0.37 | 1.43|
+|  kv-GN-Margin 1st | 18.17  | 45.24 | 30.78 | 15.66 | 4.48 | 3.91 | 0.58 | 21.85 |
+|  kv-GN-Margin 8th | 41.09  | 46.28 | 6.71 | 15.99 | 1.11 | 5.93 | 0.66 | 8.14 |
 
 ## Citation
 
